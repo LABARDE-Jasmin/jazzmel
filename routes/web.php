@@ -6,6 +6,8 @@ use App\Http\Controllers\CommentController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ReplyController;
+use App\Http\Controllers\ProfileController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +27,8 @@ Route::get('/', function () {
 Route::get('/dain', function () {
     return view('dain');
 });
+
+Route::get('/profile/edit', [ProfileController::class, 'edit'])->name('profile.edit');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -50,5 +54,6 @@ Route::group(['middleware' => 'auth'], function() {
 	Route::group(['prefix' => '/replies', 'as' => 'replies.'], function() {
         // store reply route
 		Route::post('/{comment}', [ReplyController::class, 'store'])->name('store');
+
 	});
 });
