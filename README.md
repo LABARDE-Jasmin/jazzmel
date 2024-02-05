@@ -1,3 +1,24 @@
+Projet Jazzmel
+
+Collaborateurs :
+    - Amélie Henry
+    - Jasmin Labarde
+
+Etape 1 (9h - 12h) en groupe : Création du projet "Jazzmel"
+Mise en place de l'environnement de developpement
+Creation sur github, ajout des collaborateurs. 
+Création d'une base de données et ajout de champs à des tables
+
+Etape 2 (13h30 - 16h45) : Back
+Utilisation de Breeze
+Création des Models, migrations et controllers
+Ajout des pages d'authentification
+
+Etape 3 (13h30 - 16h45) : Front
+Ajout de la page http://adresse/dain (Route et vue)
+Debugging
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
