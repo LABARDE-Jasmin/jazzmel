@@ -1,3 +1,27 @@
+## Projet Jazzmel
+
+Collaborateurs :
+    - Amélie Henry
+    - Jasmin Labarde
+
+Etape 1 (9h - 12h) : Création du projet "Jazzmel"
+- Téléchargement et installation de Laravel : "curl -s "https://laravel.build/minimalist-blog-laravel" | bash".
+- Mise en place de l'environnement de developpement.
+- Utilisation de ./vendor/bin/sail pour éxecuter certaines commandes. 
+- Creation sur GitHub, ajout des collaborateurs.
+- Mise en place de Git pour la gestion des versions du code, liaison avec GitHub.
+- Création d'une base de données et ajout de champs à des tables.
+
+Etape 2 (13h30 - 16h45) : Back
+- Installation de Breeze.
+- Création des models, migrations et controllers.
+- Ajout des pages d'authentification avec Breeze.
+
+Etape 3 (13h30 - 16h45) : Front
+- Ajout de la page http://adresse/dain (Route et vue).
+- Debugging (Rajout d'une route qui manquait).
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
