@@ -14,7 +14,7 @@
     <div class="card m-2 shadow-sm">
         <div class="card-body">
 
-            {{-- post title --}}
+            {{-- dain --}}
             <h4 class="card-title">
                 <a href="{{ route('posts.show', $post->id) }}">{{ $post->title }}</a>
             </h4>
